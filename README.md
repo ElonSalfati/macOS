@@ -11,7 +11,7 @@ How I setup a new Mac.
 ## 2. Install deps
 
 ```sh
-git clone https://github.com/elonsalfati/mac.git
+git clone https://github.com/ElonSalfati/macOS.git
 cd mac
 # edit Brewfile to remove/add things
 brew bundle
