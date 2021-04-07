@@ -22,7 +22,7 @@ brew bundle
 Outdated: follow instructions in https://github.com/elonsalfati/dotfiles.fish
 
 ```sh
-git clone https://github.com/elonsalfati/dotfiles.git ~/.dotfiles
+git clone https://github.com/ElonSalfati/dotfiles.fish.git ~/.dotfiles
 cd ~/.dotfiles
 ./script/bootstrap.fish
 fish
