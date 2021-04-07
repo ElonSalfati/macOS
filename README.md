@@ -12,7 +12,7 @@ How I setup a new Mac.
 
 ```sh
 git clone https://github.com/ElonSalfati/macOS.git
-cd mac
+cd macOS
 # edit Brewfile to remove/add things
 brew bundle
 ```
