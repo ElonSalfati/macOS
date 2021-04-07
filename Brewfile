@@ -1,4 +1,3 @@
-tap "caarlos0/tap"
 tap "charmbracelet/tap"
 tap "chef/chef"
 tap "github/gh"
@@ -129,6 +128,8 @@ brew "tree"
 brew "unrar"
 # HTTP load testing tool and library
 brew "vegeta"
+# K8S context management
+brew "kubectx"
 # Vi 'workalike' with many additional features
 brew "vim"
 # Executes a program periodically, showing output fullscreen
@@ -139,18 +140,6 @@ brew "wget"
 brew "yarn"
 # Download YouTube videos from the command-line
 brew "youtube-dl"
-brew "caarlos0/tap/clone-org"
-# Cleans up old and inactive forks on your github account.
-brew "caarlos0/tap/fork-cleaner"
-# quickly ssh into gcloud instances
-brew "caarlos0/tap/gssh"
-# Like gofmt, but for JSON files
-brew "caarlos0/tap/jsonfmt"
-# kubectx and kubens are power tools for kubectl
-brew "caarlos0/tap/kubectx"
-brew "caarlos0/tap/svu"
-# Task Timer (tt) is a dead simple TUI task timer.
-brew "caarlos0/tap/tt"
 # Deliver Go binaries as fast and easily as possible
 brew "goreleaser/tap/goreleaser"
 # Ookla Speedtest
