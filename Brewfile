@@ -163,8 +163,6 @@ cask "imageoptim"
 cask "iterm2-beta"
 # Tool to prevent the system from going into sleep mode
 cask "keepingyouawake"
-# End-to-end encryption software
-cask "keybase"
 # App to manage software development and track bugs
 cask "clickup"
 # Tool to create text-based art
