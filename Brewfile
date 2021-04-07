@@ -30,8 +30,6 @@ brew "coreutils"
 brew "jemalloc"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
-# Command-line DNS client
-brew "dog"
 # Modern replacement for 'ls'
 brew "exa"
 # Simple, fast and user-friendly alternative to find
