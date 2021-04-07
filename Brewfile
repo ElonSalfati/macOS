@@ -108,8 +108,6 @@ brew "pstree"
 brew "redis"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
-# Static analysis and lint tool, for (ba)sh scripts
-brew "shellcheck"
 # Cross-shell prompt for astronauts
 brew "starship"
 # Tail multiple Kubernetes pods & their containers
@@ -122,8 +120,6 @@ brew "tfenv"
 brew "tldr"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
-# Extract, view, and test RAR archives
-brew "unrar"
 # HTTP load testing tool and library
 brew "vegeta"
 # K8S context management
@@ -146,7 +142,6 @@ brew "teamookla/speedtest/speedtest"
 brew "git"
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
-cask "adoptopenjdk"
 # Watch local content on Apple TV and Chromecast
 cask "airflow"
 # Tool to flash OS images to SD cards & USB drives
