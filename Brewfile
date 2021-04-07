@@ -155,6 +155,8 @@ brew "caarlos0/tap/tt"
 brew "goreleaser/tap/goreleaser"
 # Ookla Speedtest
 brew "teamookla/speedtest/speedtest"
+# Manage git via brew
+brew "git"
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
 cask "adoptopenjdk"
