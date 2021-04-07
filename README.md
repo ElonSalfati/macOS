@@ -11,7 +11,7 @@ How I setup a new Mac.
 ## 2. Install deps
 
 ```sh
-git clone https://github.com/caarlos0/mac.git
+git clone https://github.com/elonsalfati/mac.git
 cd mac
 # edit Brewfile to remove/add things
 brew bundle
@@ -19,10 +19,10 @@ brew bundle
 
 ## 3. Install dotfiles
 
-Outdated: follow instructions in https://github.com/caarlos0/dotfiles.fish
+Outdated: follow instructions in https://github.com/elonsalfati/dotfiles.fish
 
 ```sh
-git clone https://github.com/caarlos0/dotfiles.git ~/.dotfiles
+git clone https://github.com/elonsalfati/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 ./script/bootstrap.fish
 fish
