@@ -15,10 +15,6 @@ tap "homebrew/services"
 tap "teamookla/speedtest"
 # Record and share terminal sessions
 brew "asciinema"
-# Use AWS IAM credentials to authenticate to Kubernetes
-brew "aws-iam-authenticator"
-# Official Amazon AWS command-line interface
-brew "awscli"
 # Bourne-Again SHell, a UNIX command interpreter
 brew "bash"
 # Clone of cat(1) with syntax highlighting and Git integration
@@ -101,16 +97,8 @@ brew "imagemagick"
 brew "ipcalc"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
-# Little helper to run Rancher Lab's k3s in Docker
-brew "k3d"
-# Utility to create k3s clusters on any local or remote VM
-brew "k3sup"
 # YAML Parser
 brew "libyaml"
-# Development kit for the Java programming language
-brew "openjdk"
-# Java-based project management
-brew "maven"
 # Port scanning utility for large networks
 brew "nmap"
 # Platform built on V8 to build network applications
@@ -125,10 +113,6 @@ brew "redis"
 brew "ripgrep"
 # Static analysis and lint tool, for (ba)sh scripts
 brew "shellcheck"
-# Tool to work with .snap files
-brew "snap"
-# Package any app for every Linux desktop, server, cloud or device
-brew "snapcraft"
 # Cross-shell prompt for astronauts
 brew "starship"
 # Tail multiple Kubernetes pods & their containers
@@ -167,10 +151,6 @@ brew "caarlos0/tap/kubectx"
 brew "caarlos0/tap/svu"
 # Task Timer (tt) is a dead simple TUI task timer.
 brew "caarlos0/tap/tt"
-# Automatically delete tweets, retweets, and favorites from your timeline, and, if provided, from your twitter archive as well.
-brew "caarlos0/tap/twitter-cleaner"
-# Manage your Charm account and encrypt/decrypt data
-brew "charmbracelet/tap/charm"
 # Deliver Go binaries as fast and easily as possible
 brew "goreleaser/tap/goreleaser"
 # Ookla Speedtest
@@ -189,29 +169,20 @@ cask "discord"
 cask "docker"
 cask "font-inconsolata"
 cask "font-inconsolata-nerd-font"
-# Go (golang) IDE
-cask "goland"
 # Web browser
 cask "google-chrome"
 # Set of tools to manage resources and applications hosted on Google Cloud
 cask "google-cloud-sdk"
 # Tool to optimize images to a smaller size
 cask "imageoptim"
-# IDE for Java development - community edition
-cask "intellij-idea-ce"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2-beta"
-cask "java"
 # Tool to prevent the system from going into sleep mode
 cask "keepingyouawake"
 # End-to-end encryption software
 cask "keybase"
-# Interface for reading and syncing eBooks
-cask "kindle"
 # App to manage software development and track bugs
-cask "linear-linear"
-# Software for Logitech devices
-cask "logitech-options"
+cask "clickup"
 # Tool to create text-based art
 cask "monodraw"
 # Reverse proxy, secure introspectable tunnels to localhost
@@ -220,28 +191,15 @@ cask "ngrok"
 cask "notion"
 # Create deployments right from the tray menu
 cask "now"
-cask "postgres"
-# GUI client for PostgreSQL databases
-cask "postico"
 # Control your tools with a few keystrokes
 cask "raycast"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
 # Monitors the computer system and optimizes its performance
 cask "sensei"
-# Instant messaging application focusing on security
-cask "signal"
-# Team communication and collaboration software
-cask "slack"
-# Automatically downloads subtitles movies and TV shows
-cask "subtitles"
-# Messaging app with a focus on speed and security
-cask "telegram"
-# Open-source BitTorrent client
-cask "transmission"
 # Open-source code editor
 cask "visual-studio-code"
-# Multimedia player
-cask "vlc"
 # Desktop client for WhatsApp
 cask "whatsapp"
+# Google drive mounting
+cask "google-drive"
