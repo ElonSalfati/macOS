@@ -20,6 +20,8 @@ brew "bash"
 brew "bat"
 # GNU internationalization (i18n) and localization (l10n) library
 brew "gettext"
+# Colorize logfile and command output
+brew "grc"
 # Statistics utility to count lines of code
 brew "cloc"
 # Cross-platform make
@@ -185,3 +187,5 @@ cask "visual-studio-code"
 cask "whatsapp"
 # Google drive mounting
 cask "google-drive"
+# Transfer encrypted data by ExpressVPN
+cask "expressvpn"
