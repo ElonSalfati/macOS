@@ -112,6 +112,8 @@ brew "redis"
 brew "ripgrep"
 # Cross-shell prompt for astronauts
 brew "starship"
+# Skaffold tool
+brew "skaffold"
 # Tail multiple Kubernetes pods & their containers
 brew "stern"
 # User interface to the TELNET protocol
